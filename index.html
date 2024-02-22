@@ -51,20 +51,22 @@
             text-decoration: none;
         }
     </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 
 <body>
     <div class="main-disp">
         <h1>Bombiesの実績一覧</h1>
-        動画をクリックしても見れないものはもうすぐアップロードされると思うので数日待ってください。
+        最終更新日: 2024/02/23
+        
         <br><br>
-            
+        
         <div class="map">
             
             <h2>Dead End</h2>
             
             <h3>非協力型（SOLO）</h3>
-
+            
             <details id="de-no-chest">
                 <summary>
                     <span style="color: rgb(230,93,222);" class="normal-str">@無課金プレイヤー</span>
@@ -79,14 +81,13 @@
             <details>
                 <summary>
                     <span style="color: rgb(173,255,239);" class="normal-str">@通気性抜群</span>
-                    
                 </summary>
                 <div class="content">
                     Dead End Solo で Win する<br>
                     全ての Door を開ける<br>
                 </div>
             </details>
-
+            
             <details>
                 <summary>
                     <span style="color: rgb(96,125,139);" class="normal-str">@石器時代</span>
@@ -99,7 +100,18 @@
                     <a href="https://youtu.be/sk12G4Najpk" target="_blank">動画</a>
                 </div>
             </details>
-
+            
+            <details>
+                <summary>
+                    <span style="color: rgb(128,128,128);" class="normal-str">@鉄器時代</span>
+                </summary>
+                <div class="content">
+                    dead end soloをwinする<br>
+                    武器はshotgun blow dart eldergunのみ<br>
+                    防具は鉄<br>
+                </div>
+            </details>
+            
             <details>
                 <summary>
                     <span style="color: rgb(74,226,235);" class="normal-str">@氷炎の使者</span>
@@ -112,7 +124,7 @@
                     <a href="https://youtu.be/LfLFj2jZNw8" target="_blank">動画</a>
                 </div>
             </details>
-
+            
             <details>
                 <summary>
                     <span style="color: rgb(43,45,49);" class="dark-str">@夜に駆ける</span>
@@ -123,11 +135,10 @@
                     電源を入れない<br>
                 </div>
             </details>
-
+            
             <details>
                 <summary>
                     <span style="color: rgb(70,131,104);" class="normal-str">@ウサイン・ボルト</span>
-                    
                 </summary>
                 <div class="content">
                     Dead End Normal Solo を 30 分以内に Win する<br>
@@ -137,7 +148,6 @@
             <details id="de-hard-solo">
                 <summary>
                     <span style="color: rgb(95,9,9);" class="dark-str">@人間戦車</span>
-                    
                 </summary>
                 <div class="content">
                     Dead End Hard Solo で Win する<br>
@@ -165,11 +175,10 @@
                     口裏合わせは無効です<br>
                 </div>
             </details>
-                
+            
             <details>
                 <summary>
                     <span style="color: rgb(203,138,114);" class="normal-str">@きゃりーぱみゅぱみゅ</span>
-                    
                 </summary>
                 <div class="content">
                     Dead End RIP で 1 人の野良 Player とともに Win する<br>
@@ -184,7 +193,6 @@
             <details>
                 <summary>
                     <span style="color: rgb(158,255,252);" class="normal-str">@Doctor X</span>
-                    
                 </summary>
                 <div class="content">
                     Zombies Dead End RIP Duo に 50 分以内で Win する<br>
@@ -203,7 +211,16 @@
                     <a href="https://youtu.be/CkAQxSPidC8" target="_blank">動画</a>
                 </div>
             </details>
-
+            
+            <details id="speedstar">
+                <summary>
+                    <span style="color: rgb(65,255,86);" class="normal-str">@スーパースピードスター</span>
+                </summary>
+                <div class="content">
+                    30 分以内に Dead End RIP Duo で Win する<br>
+                </div>
+            </details>
+            
             <details>
                 <summary>
                     <span style="color: rgb(124,60,37);" class="normal-str">@放火魔</span>
@@ -215,11 +232,10 @@
                     <a href="https://youtu.be/HL-5if0tPdg" target="_blank">動画</a>
                 </div>
             </details>
-
+            
             <details>
                 <summary>
                     <span style="color: rgb(180, 35, 35);" class="normal-str">@暇人</span>
-                    
                 </summary>
                 <div class="content">
                     Dead End 2時間の制限時間超過による負け<br>
@@ -250,7 +266,7 @@
                     <a href="https://youtu.be/HL-5if0tPdg" target="_blank">動画</a>
                 </div>
             </details>
-
+            
             <details>
                 <summary>
                     <span style="color: rgb(255,158,64);" class="normal-str">@にゃんこ大戦争</span>
@@ -289,14 +305,39 @@
                 </div>
             </details>
             
+            <details>
+                <summary>
+                    <span style="color: rgb(109,93,93);" class="normal-str">@爆弾四重奏</span>
+                </summary>
+                <div class="content">
+                    DeadEnd Quad で Win する<br>
+                    Pistol / Rocket Launcher のみを持つ<br>
+                    Pistol は Ultimate しない<br>
+                    R21 以降は Rocket Launcher のみを使う<br>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span style="color: rgb(53,23,23);" class="dark-str">@世紀末</span>
+                </summary>
+                <div class="content">
+                    Dead end quadでWinする<br>
+                    プレイヤー全員がpistolとflamethrowerのみを使う<br>
+                    プレイヤー全員がFlame Bulletを所持する<br>
+                    pistolのultimateをしない<br>
+                </div>
+            </details>
+            
             <details id="de-hard-no-power">
                 <summary>
                     <span style="color: rgb(142,241,159);" class="normal-str">@節電</span>
-                    
+                    （動画あり）
                 </summary>
                 <div class="content">
                     Dead End Hard で Win する<br>
                     Power Switch を押さない<br>
+                    <a href="https://youtu.be/3PrU38i7kI4" target="_blank">動画</a>
                 </div>
             </details>
             
@@ -378,13 +419,13 @@
                     <a href="https://youtu.be/fePemVCR52s" target="_blank">動画</a>
                 </div>
             </details>
-        
+            
         </div>
-
+        
         <br><br>
         
         <div class="map">
-        
+            
             <h2>Bad Blood</h2>
             
             <details id="bb-solo">
@@ -420,11 +461,10 @@
                     <a href="https://youtu.be/rIfYZFKyx3M" target="_blank">動画</a>
                 </div>
             </details>
-
+            
             <details>
                 <summary>
                     <span style="color: rgb(96,125,139);" class="normal-str">@真石器時代</span>
-                    
                 </summary>
                 <div class="content">
                     Bad Blood Solo で Win する<br>
@@ -436,11 +476,19 @@
             <details>
                 <summary>
                     <span style="color: rgb(138,0,0);" class="normal-str">@点ることのない燭台</span>
-                    
                 </summary>
                 <div class="content">
                     Bad Blood Solo で Win する<br>
                     Power Switch を押さない<br>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span style="color: rgb(37,15,20);" class="dark-str">@おばけなんてないさ</span>
+                </summary>
+                <div class="content">
+                    Bad Blood Normal Solo を 25 分以内に Win する<br>
                 </div>
             </details>
             
@@ -454,7 +502,7 @@
                     <a href="https://youtu.be/zi_0kS3T4WU" target="_blank">動画</a>
                 </div>
             </details>
-
+            
             <details>
                 <summary>
                     <span style="color: rgb(247,187,187);" class="normal-str">@仲良し家族</span>
@@ -477,7 +525,6 @@
             <details>
                 <summary>
                     <span style="color: rgb(32,1,0);" class="dark-str">@重要文化財</span>
-                    
                 </summary>
                 <div class="content">
                     Bad Blood で Win する<br>
@@ -496,7 +543,7 @@
                     <a href="https://youtu.be/sk4dY9OK2f8" target="_blank">動画</a>
                 </div>
             </details>
-
+            
             <details>
                 <summary>
                     <span style="color: rgb(1,1,1);" class="dark-str">@暗黒屋敷</span>
@@ -515,7 +562,7 @@
                     （動画あり）
                 </summary>
                 <div class="content">                    
-                    BB RIPをno armorでクリアする
+                    BB RIPをno armorでクリアする<br>
                     <a href="https://youtu.be/OoLHAYKEGwM" target="_blank">動画</a>
                 </div>
             </details>
@@ -531,21 +578,28 @@
                 </div>
             </details>
             
+            <details id="cleaning">
+                <summary>
+                    <span style="color: rgb(149,165,166);" class="normal-str">@染料軍</span>
+                </summary>
+                <div class="content">
+                    全員が薄灰色の染料を持ったままBB RIP win <br>
+                </div>
+            </details>
+            
             <details>
                 <summary>
                     <span style="color: rgb(46,204,113);" class="normal-str">@POC in Bad Blood</span>
-                    
                 </summary>
                 <div class="content">
                     Bad Blood で Win する<br>
                     Pistol のみを使う<br>
                 </div>
             </details>
-
+            
             <details>
                 <summary>
                     <span style="color: rgb(201,205,251);" class="normal-str">@BB Rip Solo</span>
-                    
                 </summary>
                 <div class="content">
                     Bad Blood RIP Solo で Win する<br>
@@ -562,13 +616,13 @@
                     <a href="https://youtu.be/CWUtvEa2t-g" target="_blank">動画</a>
                 </div>
             </details>
-        
+            
         </div>
-
+        
         <br><br>
         
         <div class="map">
-        
+            
             <h2>Alien Arcadium</h2>
             
             <details>
@@ -588,7 +642,6 @@
             <details>
                 <summary>
                     <span style="color: rgb(130,0,195);" class="normal-str">@オレに任せろ！</span>
-                    
                 </summary>
                 <div class="content">
                     Alien Arcadium で Win する<br>
@@ -621,7 +674,7 @@
                     <a href="https://youtu.be/m7SG2F4UKAE" target="_blank">動画</a>
                 </div>
             </details>
-
+            
             <details id="aa-duo-r65">
                 <summary>
                     <span style="color: rgb(147,149,255);" class="normal-str">@連星</span>
@@ -632,7 +685,7 @@
                     <a href="https://youtu.be/73ALKrkgoZY" target="_blank">動画</a>
                 </div>
             </details>
-
+            
             <details id="aa-trio-r90">
                 <summary>
                     <span style="color: rgb(150,103,255);" class="normal-str">@三連星</span>
@@ -643,7 +696,7 @@
                     <a href="https://youtu.be/UQaZhQ55sf4" target="_blank">動画</a>
                 </div>
             </details>
-
+            
             <details>
                 <summary>
                     <span style="color: rgb(48,0,255);" class="dark-str">@三銃士</span>
@@ -691,7 +744,6 @@
             <details>
                 <summary>
                     <span style="color: rgb(149,165,166);" class="normal-str">@Ironman!</span>
-                    
                 </summary>
                 <div class="content">
                     Alien Arcadium で Win する<br>
@@ -702,7 +754,6 @@
             <details>
                 <summary>
                     <span style="color: rgb(82,58,76);" class="normal-str">@高所恐怖症</span>
-                    
                 </summary>
                 <div class="content">                    
                     Alien Arcadium で Win する<br>
@@ -713,7 +764,6 @@
             <details>
                 <summary>
                     <span style="color: rgb(61,49,104);" class="normal-str">@閉ざされたテーマパーク</span>
-                    
                 </summary>
                 <div class="content">                    
                     AAでドアを開けずr42に到達する
@@ -726,28 +776,39 @@
                     （動画あり）
                 </summary>
                 <div class="content">                    
-                    Alien Arcadium で Win する
-                    全員が skill を所持しない
+                    Alien Arcadium で Win する<br>
+                    全員が skill を所持しない<br>
                     <a href="https://youtu.be/z7WLdlHaB4Q" target="_blank">動画</a>
                 </div>
             </details>
             
             <details>
                 <summary>
+                    <span style="color: rgb(255,208,103);" class="normal-str">@金欠対策</span>
+                </summary>
+                <div class="content">     
+                    alien arcadiumを全員eco setでwinする<br>
+                    eco set = dbsg sg zz<br>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
                     <span style="color: rgb(201,205,251);" class="normal-str">@Speed Run - AA 80minutes</span>
-                    
+                    （動画あり）
                 </summary>
                 <div class="content">
                     Alien Arcadium を 80 minutes 以内に Win する<br>
+                    <a href="https://youtu.be/Iqsv6BEash0?si=rTn-CEhQIJVzBwdS" target="_blank">動画</a>
                 </div>
             </details>
-
+            
         </div>
         
         <br><br>
         
         <div class="map">
-
+            
             <h2>Any Map</h2>
             <details>
                 <summary>
@@ -759,7 +820,7 @@
                     <a href="https://youtu.be/3PrU38i7kI4" target="_blank">動画</a>
                 </div>
             </details>
-
+            
             <details>
                 <summary>
                     <span style="color: rgb(109,94,0);" class="normal-str">@わーいぴかぴか！</span>
@@ -771,7 +832,7 @@
                     <a href="https://youtu.be/HL-5if0tPdg" target="_blank">動画</a>
                 </div>
             </details>
-
+            
             <details>
                 <summary>
                     <span style="color: rgb(1,0,0);" class="dark-str">@無能剣士</span>
@@ -783,7 +844,7 @@
                     <a href="https://youtu.be/QFAorPq0ZJk" target="_blank">動画</a>
                 </div>
             </details>
-
+            
             <details>
                 <summary>
                     <span style="color: rgb(72,0,0);" class="dark-str">@暗殺者</span>
@@ -795,7 +856,7 @@
                     <a href="https://youtu.be/Vzd2neCSqXI" target="_blank">動画</a>
                 </div>
             </details>
-
+            
             <details id="reaper">
                 <summary>
                     <span style="color: rgb(212,255,252);" class="normal-str">@白い死神</span>
@@ -809,7 +870,7 @@
                     <a href="https://youtu.be/Vzd2neCSqXI" target="_blank">動画</a>
                 </div>
             </details>
-
+            
             <details>
                 <summary>
                     <span style="color: rgb(29,0,29);" class="dark-str">@闇の悪魔</span>
@@ -834,7 +895,16 @@
                     <a href="https://youtu.be/okEYkFIXJmc" target="_blank">動画</a>
                 </div>
             </details>
-
+            
+            <details>
+                <summary>
+                    <span style="color: rgb(255,244,172);" class="normal-str">@射撃訓練完了！</span>
+                </summary>
+                <div class="content">
+                    ゲーム開始前に Practice Gun の弾 1000 発を全て使用する<br>
+                </div>
+            </details>
+            
             <details id="0score-win">
                 <summary>
                     <span style="color: rgb(201,205,251);" class="normal-str">@生類憐みの令</span>
@@ -851,7 +921,7 @@
                     </ul>
                 </div>
             </details>
-
+            
             <details>
                 <summary>
                     <span style="color: rgb(201,205,251);" class="normal-str">@シークレットサービス</span>
@@ -862,15 +932,15 @@
                     </span> </a> を取得する<br>
                 </div>
             </details>
-
+            
         </div>
         
         <br><br>
         
         <div class="map">
-
+            
             <h2>Others</h2>
-
+            
             <details id="semi-senior">
                 <summary>
                     <span style="color: rgb(27,115,163);" class="normal-str">@Zombies準上級者</span>
@@ -888,7 +958,7 @@
                     </ul>
                 </div>
             </details>
-
+            
             <details id="senior">
                 <summary>
                     <span style="color: rgb(180, 35, 35);" class="normal-str">@Zombies上級者</span>
@@ -906,7 +976,7 @@
                     </ul>
                 </div>
             </details>
-
+            
             <details>
                 <summary>
                     <span style="color: rgb(255,187,58);" class="normal-str">@Zombies特級者</span>
@@ -935,7 +1005,7 @@
                     </ul>
                 </div>
             </details>
-
+            
             <details id="200win">
                 <summary>
                     <span style="color: rgb(255,218,34);" class="normal-str">@終わらない戦い</span>
@@ -945,7 +1015,7 @@
                     Alien Arcadium で 1 Win する<br>
                 </div>
             </details>
-
+            
             <details>
                 <summary>
                     <span style="color: rgb(28,16,19);" class="dark-str">@ﾜﾀｼﾊｿﾞﾝﾋﾞｰｽﾞﾁｮｯﾄﾃﾞｷﾙ</span>
@@ -954,7 +1024,7 @@
                     Zombies で 500 Win する<br>
                 </div>
             </details>
-
+            
             <details>
                 <summary>
                     <span style="color: rgb(255,121,0);" class="normal-str">@御神木</span>
@@ -964,7 +1034,7 @@
                     Alien Arcadium で 30 Win する<br>
                 </div>
             </details>
-
+            
             <details>
                 <summary>
                     <span style="color: rgb(255,0,0);" class="normal-str">@日本代表</span>
@@ -1029,7 +1099,7 @@
                     </ul>
                 </div>
             </details>
-
+            
             <details>
                 <summary>
                     <span style="color: rgb(46,204,113);" class="normal-str">@Creeper Attack 60 Wave</span>
@@ -1040,7 +1110,7 @@
                     <a href="https://youtu.be/tVEyOcRSGpI" target="_blank">動画</a>
                 </div>
             </details>
-
+            
             <details>
                 <summary>
                     <span style="color: rgb(46,204,113);" class="normal-str">@Creeper Attack 100 Wave</span>
@@ -1051,6 +1121,26 @@
                     <a href="https://youtu.be/UcQ2QhqU1tk?si=SZjFlSmtoRlTzF5C" target="_blank">動画</a>
                 </div>
             </details>
+            
+            <details>
+                <summary>
+                    <span style="color: rgb(46,204,113);" class="normal-str">@Creeper Attack 400 Wave</span>
+                </summary>
+                <div class="content">
+                    Crepper Attack で 401 Wave に到達する<br>
+                </div>
+            </details>
+            
+            <details>
+                <summary>
+                    <span style="color: rgb(202,236,255);" class="normal-str">@最後の生存者</span>
+                </summary>
+                <div class="content">
+                    blocking deadで生き残る<br>
+                    生存者は自分だけ<br>
+                </div>
+            </details>
+            
         </div>
     </div>
 </body>
