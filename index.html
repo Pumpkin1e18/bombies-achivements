@@ -5,67 +5,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bombies Achivement</title>
-    <style>
-        h2, h3, h4 {
-            margin: 0;
-            padding: 0;
-        }
-        body {
-            background-color: gray;
-            color: rgb(219,222,225);
-        }
-        .main-disp{
-            background-color: rgb(46, 48, 53);
-            width: 550px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        .map{
-            width: 500px;
-            word-wrap: break-word;
-            background-color: rgb(30,31,34);
-            margin: 0 auto;
-            padding: 20px;
-        }
-        summary {
-            width: max-content;
-            margin: 2px;
-        }
-        .normal-str{
-            background-color: rgba(0,0,0,0.4);
-            padding-left: 3px;
-            padding-right: 3px;
-        }
-        .dark-str{
-            background-color: rgba(255,255,255,0.25);
-            padding-left: 3px;
-            padding-right: 3px;
-        }
-        .content {
-            margin-left: 20px;
-        }
-        a{
-            color: blueviolet;
-        }
-        a[href^="#"] {
-            text-decoration: none;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 
 <body>
     <div class="main-disp">
         <h1>Bombiesの実績一覧</h1>
-        最終更新日: 2024/02/23
+        最終更新日: 2024/02/23<br>
         
-        <br><br>
+        <br>
+        
+        <details>
+            <summary>
+                実績についての原則
+            </summary>
+            
+            <div class="content">
+                
+                <details>
+                    <summary>
+                        武器についての実績条件について
+                    </summary>
+                    <div class="content">
+                        原則として<br>
+                        <ul style="padding: 0; padding-left: 23px; margin: 0px;">
+                            <li>指定した武器 / Knife / Pistol 以外を所持してはいけない</li>
+                            <li>指定した武器 / Knife 以外を使ってはいけない</li>
+                        </ul>
+                        2024/2/18 より適用<br>
+                    </div>
+                </details>
+                
+                <br>
+                
+                <details>
+                    <summary>
+                        準上級者 / 上級者の条件について
+                    </summary>
+                    <div class="content">
+                        <b>3 人</b>の上級者とともに、<b>全員</b>が Round 57 までにダイヤフル装備を獲得する<br>
+                        2023/10/21 より適用<br>
+                    </div>
+                </details>
+                
+                <br>
+                
+                <details>
+                    <summary>
+                        ヘッドショット率 の kill 数について
+                    </summary>
+                    <div class="content">
+                        Map / Difficulty にかかわらず 300 kills 以上<br>
+                    </div>
+                </details>
+                
+                <br>
+                
+                <details>
+                    <summary>
+                        Full Open について
+                    </summary>
+                    <div class="content">
+                        Round 19 までに全てのドアを開ける<br>
+                        2023/09/30 より適用<br>
+                    </div>
+                </details>
+                
+                <br>
+                
+                <details>
+                    <summary>
+                        Solo / Duo の退出について
+                    </summary>
+                    <div class="content">
+                        DE Normal / BB Normal / AA は Round 9 までに退出する<br>
+                        DE Hard RIP / BB Hard RIP は最初から退出する<br>
+                    </div>
+                </details>
+                
+                <br>
+                
+                <details>
+                    <summary>
+                        上級者による判断について
+                    </summary>
+                    <div class="content">
+                        原則として、条件を守って申請するのは <b>申請者の責任</b> です。
+                        実績の条件を満たしているか、全てをスクリーンショットから判断することはできません。
+                        実績承認システムの信頼を毀損することのないよう、十分に留意して申請して下さい。
+                        上級者はスクリーンショットから判断される範囲で承認して下さい。
+                        申請を拒否する場合は、申請者が実績を明らかに誤解しているときとし、判断に迷う場合は ADMIN にメンションするようにして下さい。
+                    </div>
+                </details>
+                
+            </div>
+        </details>
+        
+        <br>
         
         <div class="map">
             
             <h2>Dead End</h2>
             
-            <h3>非協力型（SOLO）</h3>
+            <h3>非協力型（Solo）</h3>
             
             <details id="de-no-chest">
                 <summary>
@@ -73,7 +116,8 @@
                     （動画あり）
                 </summary>
                 <div class="content">
-                    Lucky Chest なしで Dead End Solo を Win する<br>
+                    Dead End Solo で Win する<br>
+                    Lucky Chest を引かない<br>
                     <a href="https://youtu.be/bg-C9FytVMs" target="_blank">動画</a>
                 </div>
             </details>
@@ -84,7 +128,7 @@
                 </summary>
                 <div class="content">
                     Dead End Solo で Win する<br>
-                    全ての Door を開ける<br>
+                    全てのドアを開ける<br>
                 </div>
             </details>
             
@@ -95,8 +139,8 @@
                 </summary>
                 <div class="content">
                     Dead End Solo で Win する<br>
-                    Pistol / Sniper / Rifle / Rocket Launcher のみ<br>
-                    革防具を装備する<br>
+                    Pistol / Sniper / Rifle / Rocket Launcher のみを使う<br>
+                    革防具を着用する<br>
                     <a href="https://youtu.be/sk12G4Najpk" target="_blank">動画</a>
                 </div>
             </details>
@@ -106,9 +150,9 @@
                     <span style="color: rgb(128,128,128);" class="normal-str">@鉄器時代</span>
                 </summary>
                 <div class="content">
-                    dead end soloをwinする<br>
-                    武器はshotgun blow dart eldergunのみ<br>
-                    防具は鉄<br>
+                    Dead End Solo で Win する<br>
+                    Shotgun / Blow Dart / Eldergun のみを使う<br>
+                    鉄防具を着用する<br>
                 </div>
             </details>
             
@@ -119,8 +163,8 @@
                 </summary>
                 <div class="content">
                     Dead End Solo で Win する<br>
-                    氷結弾と火炎弾を保持する<br>
-                    Zombie Soaker と Flame Thrower を保持する<br>
+                    Frozen Bullets と Flame Bullets を所持する<br>
+                    Zombie Soaker と Flame Thrower を所持する<br>
                     <a href="https://youtu.be/LfLFj2jZNw8" target="_blank">動画</a>
                 </div>
             </details>
@@ -131,8 +175,8 @@
                     
                 </summary>
                 <div class="content">
-                    Dead End Solo でクリアする<br>
-                    電源を入れない<br>
+                    Dead End Solo で Win する<br>
+                    Power Switch を押さない<br>
                 </div>
             </details>
             
@@ -170,9 +214,9 @@
                     
                 </summary>
                 <div class="content">
-                    2 人以上の野良 Player とともに Dead End を Win する<br>
+                    Dead End を 2 人以上の野良プレイヤーとともに Win する<br>
                     900 kills 以上<br>
-                    口裏合わせは無効です<br>
+                    ※ 口裏合わせは無効<br>
                 </div>
             </details>
             
@@ -181,23 +225,23 @@
                     <span style="color: rgb(203,138,114);" class="normal-str">@きゃりーぱみゅぱみゅ</span>
                 </summary>
                 <div class="content">
-                    Dead End RIP で 1 人の野良 Player とともに Win する<br>
-                    Kills 数が野良 Player の Kills 数の 2 倍以上<br>
+                    Dead End RIP を 1 人の野良プレイヤーとともに Win する<br>
+                    Kill 数が野良プレイヤーの Kill 数の 2 倍以上<br>
                 </div>
             </details>
             
             <br>
             
-            <h3>協力型（DUO, TRIO, QUAD）</h3>
+            <h3>協力型（Duo, Trio, Quad）</h3>
             
             <details>
                 <summary>
                     <span style="color: rgb(158,255,252);" class="normal-str">@Doctor X</span>
                 </summary>
                 <div class="content">
-                    Zombies Dead End RIP Duo に 50 分以内で Win する<br>
-                    Down 数が 0<br>
-                    Revive 数が 100 以上<br>
+                    Dead End RIP Duo を 50 分以内に Win する<br>
+                    Down 数 0<br>
+                    Revive 数 100 以上<br>
                 </div>
             </details>
             
@@ -207,7 +251,7 @@
                     （動画あり）
                 </summary>
                 <div class="content">
-                    40 分以内に Dead End RIP Duo で Win する<br>
+                    Dead End RIP Duo を 40 分以内に Win する<br>
                     <a href="https://youtu.be/CkAQxSPidC8" target="_blank">動画</a>
                 </div>
             </details>
@@ -217,7 +261,7 @@
                     <span style="color: rgb(65,255,86);" class="normal-str">@スーパースピードスター</span>
                 </summary>
                 <div class="content">
-                    30 分以内に Dead End RIP Duo で Win する<br>
+                    Dead End RIP Duo を 30 分以内に Win する<br>
                 </div>
             </details>
             
@@ -227,8 +271,8 @@
                     （動画あり）
                 </summary>
                 <div class="content">
-                    Dead End Quad Win<br>
-                    4人全員が火炎弾を所持する<br>
+                    Dead End Quad で Win する<br>
+                    4 人全員が Flame Bullets を所持する<br>
                     <a href="https://youtu.be/HL-5if0tPdg" target="_blank">動画</a>
                 </div>
             </details>
@@ -238,7 +282,7 @@
                     <span style="color: rgb(180, 35, 35);" class="normal-str">@暇人</span>
                 </summary>
                 <div class="content">
-                    Dead End 2時間の制限時間超過による負け<br>
+                    Dead End で 2 時間の制限時間超過により負ける<br>
                 </div>
             </details>
             
@@ -248,7 +292,7 @@
                     （動画あり）
                 </summary>
                 <div class="content">
-                    Dead End を Win する<br>
+                    Dead End で Win する<br>
                     4 人ともポインティングデバイス（マウス・タッチパッド等）を使わない<br>
                     <a href="https://youtu.be/clIeCPLNAi4" target="_blank">動画</a>
                 </div>
@@ -262,7 +306,7 @@
                 <div class="content">
                     Dead End RIP Quad で Win する<br>
                     Pistol と Gold Digger のみを使う<br>
-                    金装備のみを着用する<br>
+                    金防具のみを着用する<br>
                     <a href="https://youtu.be/HL-5if0tPdg" target="_blank">動画</a>
                 </div>
             </details>
@@ -273,8 +317,8 @@
                     （動画あり）
                 </summary>
                 <div class="content">
-                    Zombies Dead End RIP で Win する<br>
-                    No armor<br>
+                    Dead End RIP で Win する<br>
+                    No Armor<br>
                     猫耳スキン<br>
                     <a href="https://youtu.be/qRTMyjh0xOg" target="_blank">動画</a>
                 </div>
@@ -286,7 +330,7 @@
                     （動画あり）
                 </summary>
                 <div class="content">
-                    Dead End RIP を Win する<br>
+                    Dead End RIP で Win する<br>
                     Pistol と Rifle のみを使う<br>
                     <a href="https://youtu.be/UcQREAThN-E?si=yV4SBtqYZzTBf-ZL" target="_blank">動画</a>
                 </div>
@@ -299,8 +343,8 @@
                 </summary>
                 <div class="content">
                     Dead End RIP Quad で Win する<br>
-                    2 人が Pistol と Zombie Soaker のみを保持する<br>
-                    2 人が Pistol と Flame Thrower のみを保持する<br>
+                    2 人が Pistol と Zombie Soaker のみを使う<br>
+                    2 人が Pistol と Flame Thrower のみを使う<br>
                     <a href="https://youtu.be/mbCClNQTfto?si=GXHBs2EsqiM6sp_F" target="_blank">動画</a>
                 </div>
             </details>
@@ -310,10 +354,10 @@
                     <span style="color: rgb(109,93,93);" class="normal-str">@爆弾四重奏</span>
                 </summary>
                 <div class="content">
-                    DeadEnd Quad で Win する<br>
-                    Pistol / Rocket Launcher のみを持つ<br>
-                    Pistol は Ultimate しない<br>
+                    Dead End Quad で Win する<br>
+                    Pistol と Rocket Launcher のみを使う<br>
                     R21 以降は Rocket Launcher のみを使う<br>
+                    Pistol の Ultimate をしない<br>
                 </div>
             </details>
             
@@ -322,10 +366,10 @@
                     <span style="color: rgb(53,23,23);" class="dark-str">@世紀末</span>
                 </summary>
                 <div class="content">
-                    Dead end quadでWinする<br>
-                    プレイヤー全員がpistolとflamethrowerのみを使う<br>
-                    プレイヤー全員がFlame Bulletを所持する<br>
-                    pistolのultimateをしない<br>
+                    Dead End Quad で Winする<br>
+                    プレイヤー全員が Pistol と Flame Thrower のみを使う<br>
+                    プレイヤー全員が Flame Bullets を所持する<br>
+                    Pistol の Ultimate をしない<br>
                 </div>
             </details>
             
@@ -359,7 +403,7 @@
                     （動画あり）
                 </summary>
                 <div class="content">
-                    Dead End で Door を開けずに Round 22 に到達する<br>
+                    Dead End でドアを開けずに Round 22 に到達する<br>
                     <a href="https://youtu.be/-bpqg1EIRRs" target="_blank">動画</a>
                 </div>
             </details>
@@ -371,7 +415,7 @@
                 </summary>
                 <div class="content">
                     Dead End で Win する<br>
-                    Office の Door のみ開ける<br>
+                    Office のみを開ける<br>
                 </div>
             </details>
             
@@ -381,7 +425,8 @@
                     
                 </summary>
                 <div class="content">
-                    ホテルとアパートを開けずにDE rip をクリアする<br>
+                    Dead End RIP で Win する<br>
+                    Hotel と Apartment を開けない<br>
                 </div>
             </details>
             
@@ -391,7 +436,7 @@
                     （動画あり）
                 </summary>
                 <div class="content">
-                    Dead End を Win する<br>
+                    Dead End で Win する<br>
                     Pistol のみを使う<br>
                     <a href="https://youtu.be/UucunoZaSb4" target="_blank">動画</a>
                 </div>
@@ -422,7 +467,7 @@
             
         </div>
         
-        <br><br>
+        <br>
         
         <div class="map">
             
@@ -434,7 +479,7 @@
                     （動画あり）
                 </summary>
                 <div class="content">
-                    Bad Blood Solo を Win する<br>
+                    Bad Blood Solo で Win する<br>
                     <a href="https://youtu.be/YUWtthjoTmU" target="_blank">動画</a>
                 </div>
             </details>
@@ -445,7 +490,7 @@
                     （動画あり）
                 </summary>
                 <div class="content">
-                    Bad Blood Hard を Solo で Win する<br>
+                    Bad Blood Hard Solo で Win する<br>
                     <a href="https://youtu.be/YUWtthjoTmU" target="_blank">動画</a>
                 </div>
             </details>
@@ -456,7 +501,7 @@
                     （動画あり）
                 </summary>
                 <div class="content">
-                    Bad Blood solo で Win する<br>
+                    Bad Blood Solo で Win する<br>
                     Lucky Chest を引かない<br>
                     <a href="https://youtu.be/rIfYZFKyx3M" target="_blank">動画</a>
                 </div>
@@ -468,8 +513,8 @@
                 </summary>
                 <div class="content">
                     Bad Blood Solo で Win する<br>
-                    Pistol / Sniper / Rifle / Rocket Launcher のみ<br>
-                    革防具を装備する<br>
+                    Pistol / Sniper / Rifle / Rocket Launcher のみを使う<br>
+                    革防具を着用する<br>
                 </div>
             </details>
             
@@ -498,7 +543,7 @@
                     （動画あり）
                 </summary>
                 <div class="content">
-                    Bad Blood RIP Duo を Win する<br>
+                    Bad Blood RIP Duo で Win する<br>
                     <a href="https://youtu.be/zi_0kS3T4WU" target="_blank">動画</a>
                 </div>
             </details>
@@ -509,7 +554,7 @@
                     （動画あり）
                 </summary>
                 <div class="content">
-                    Bad Blood で以下の 6 人を含むスクリーンショットを撮る<br>
+                    Bad Blood で以下の 6 人を 1 つのスクリーンショットに収める<br>
                     <ul style="padding: 0; padding-left: 23px; margin: 0px;">
                         <li>自身（の少なくとも 1 本の腕）</li>
                         <li>Adam</li>
@@ -528,7 +573,7 @@
                 </summary>
                 <div class="content">
                     Bad Blood で Win する<br>
-                    庭の全ての窓を松の木材のままにする 
+                    Courtyard の全ての窓を松の木材のままにする 
                 </div>
             </details>
             
@@ -538,8 +583,8 @@
                     （動画あり）
                 </summary>
                 <div class="content">
-                    Door を開けない<br>
                     Bad Blood で Win する<br>
+                    ドアを開けない<br>
                     <a href="https://youtu.be/sk4dY9OK2f8" target="_blank">動画</a>
                 </div>
             </details>
@@ -551,7 +596,7 @@
                 </summary>
                 <div class="content">
                     Bad Blood RIP で Win する<br>
-                    電源を入れない<br>
+                    Power Switch を押さない<br>
                     <a href="https://youtu.be/ecGpo5XbNR4" target="_blank">動画</a>
                 </div>
             </details>
@@ -561,8 +606,8 @@
                     <span style="color: rgb(140,37,0);" class="normal-str">@血に抗いし者</span>
                     （動画あり）
                 </summary>
-                <div class="content">                    
-                    BB RIPをno armorでクリアする<br>
+                <div class="content">
+                    BB RIP を No Armor で Win する<br>
                     <a href="https://youtu.be/OoLHAYKEGwM" target="_blank">動画</a>
                 </div>
             </details>
@@ -573,7 +618,7 @@
                     （動画あり）
                 </summary>
                 <div class="content">
-                    26 分以内に Bad Blood RIP を Win する<br>
+                    Bad Blood RIP を 26 分以内に Win する<br>
                     <a href="https://youtu.be/zeEiQyPUOzE" target="_blank">動画</a>
                 </div>
             </details>
@@ -583,7 +628,8 @@
                     <span style="color: rgb(149,165,166);" class="normal-str">@染料軍</span>
                 </summary>
                 <div class="content">
-                    全員が薄灰色の染料を持ったままBB RIP win <br>
+                    Bad Blood RIP で Win する<br>
+                    全員が薄灰色の染料を持つ<br>
                 </div>
             </details>
             
@@ -612,14 +658,14 @@
                     （動画あり）
                 </summary>
                 <div class="content">
-                    Bad Blood normal を 23 分以内に Win する<br>
+                    Bad Blood Normal を 23 分以内に Win する<br>
                     <a href="https://youtu.be/CWUtvEa2t-g" target="_blank">動画</a>
                 </div>
             </details>
             
         </div>
         
-        <br><br>
+        <br>
         
         <div class="map">
             
@@ -631,9 +677,9 @@
                     （動画あり）
                 </summary>
                 <div class="content">
-                    Alien Arcadium で野良 Player とともに Round 50 に到達する<br>
-                    Kills 数が野良 Player の最多 Kills 数の 2 倍以上<br>
-                    「We're going to live on! We're going to survive! Today we celebrate our Independence Day! 」をチャットで送信する<br>
+                    Alien Arcadium で野良プレイヤーとともに Round 50 に到達する<br>
+                    Kill 数が野良プレイヤーの最多 Kill 数の 2 倍以上<br>
+                    「We're going to live on! We're going to survive! Today we celebrate our Independence Day!」をチャットで送信する<br>
                     ダイヤフル装備を着用する<br>
                     <a href="https://youtu.be/hIA-irSHOY0" target="_blank">動画</a>
                 </div>
@@ -645,7 +691,7 @@
                 </summary>
                 <div class="content">
                     Alien Arcadium で Win する<br>
-                    4000 Kill する<br>
+                    4000 kills 以上<br>
                 </div>
             </details>
             
@@ -655,7 +701,7 @@
                     （動画あり）
                 </summary>
                 <div class="content">
-                    Alien Arcadium Quad で R52 までにダイヤフル装備獲得<br>
+                    Alien Arcadium Quad で Round 52 までにダイヤフル装備を獲得する<br>
                     自身以外は <a href="#senior"> <span style="color: rgb(180, 35, 35);" class="normal-str">
                         @Zombies上級者
                     </span> </a> であること<br>
@@ -670,7 +716,7 @@
                 </summary>
                 <div class="content">
                     Alien Arcadium Solo で Round 42 に到達する<br>
-                    ガストへ画面越しに話しかける<br>
+                    <s>ガストへ画面越しに話しかける</s><br>
                     <a href="https://youtu.be/m7SG2F4UKAE" target="_blank">動画</a>
                 </div>
             </details>
@@ -766,7 +812,7 @@
                     <span style="color: rgb(61,49,104);" class="normal-str">@閉ざされたテーマパーク</span>
                 </summary>
                 <div class="content">                    
-                    AAでドアを開けずr42に到達する
+                    Alien Arcadium でドアを開けず Round 42 に到達する
                 </div>
             </details>
             
@@ -777,7 +823,7 @@
                 </summary>
                 <div class="content">                    
                     Alien Arcadium で Win する<br>
-                    全員が skill を所持しない<br>
+                    全員が Skill を所持しない<br>
                     <a href="https://youtu.be/z7WLdlHaB4Q" target="_blank">動画</a>
                 </div>
             </details>
@@ -787,8 +833,8 @@
                     <span style="color: rgb(255,208,103);" class="normal-str">@金欠対策</span>
                 </summary>
                 <div class="content">     
-                    alien arcadiumを全員eco setでwinする<br>
-                    eco set = dbsg sg zz<br>
+                    Alien Arcadium を全員 Eco Set で Win する<br>
+                    ※ Eco Set = Shotgun / Double Barrel Shotgun / Zombie Zapper<br>
                 </div>
             </details>
             
@@ -798,14 +844,14 @@
                     （動画あり）
                 </summary>
                 <div class="content">
-                    Alien Arcadium を 80 minutes 以内に Win する<br>
+                    Alien Arcadium を 80 分以内に Win する<br>
                     <a href="https://youtu.be/Iqsv6BEash0?si=rTn-CEhQIJVzBwdS" target="_blank">動画</a>
                 </div>
             </details>
             
         </div>
         
-        <br><br>
+        <br>
         
         <div class="map">
             
@@ -816,7 +862,7 @@
                     （動画あり）
                 </summary>
                 <div class="content">
-                    Perks なしで Win する<br>
+                    Zombies を Perks なしで Win する<br>
                     <a href="https://youtu.be/3PrU38i7kI4" target="_blank">動画</a>
                 </div>
             </details>
@@ -840,7 +886,7 @@
                 </summary>
                 <div class="content">
                     Dead End または Bad Blood で Win する<br>
-                    Player 全員が Knife または Puncher のみを使う<br>
+                    プレイヤー全員が Knife または Puncher のみを使う<br>
                     <a href="https://youtu.be/QFAorPq0ZJk" target="_blank">動画</a>
                 </div>
             </details>
@@ -863,8 +909,7 @@
                     （動画あり）
                 </summary>
                 <div class="content">
-                    以下の全てを満たす<br>
-                    Zombies に Win するか Alien Arcadium R36 に到達する<br>
+                    Dead End または Bad Blood で Win するか Alien Arcadium で Round 36 に到達する<br>
                     射撃精度 90% 以上<br>
                     ヘッドショット率 70% 以上<br>
                     <a href="https://youtu.be/Vzd2neCSqXI" target="_blank">動画</a>
@@ -878,7 +923,7 @@
                 </summary>
                 <div class="content">
                     Zombies Solo で Win する<br>
-                    Head Shot Ratio が 90% 以上<br>
+                    ヘッドショット率 90% 以上<br>
                     <a href="https://youtu.be/Vzd2neCSqXI" target="_blank">動画</a>
                 </div>
             </details>
@@ -889,9 +934,9 @@
                     （動画あり）
                 </summary>
                 <div class="content">
-                    Zombies を Win する<br>
-                    Kills 数が 300 以上<br>
-                    Head Shot Ratio が 100%<br>
+                    Zombies で Win する<br>
+                    Kill 数 300 以上<br>
+                    ヘッドショット率 100%<br>
                     <a href="https://youtu.be/okEYkFIXJmc" target="_blank">動画</a>
                 </div>
             </details>
@@ -901,7 +946,7 @@
                     <span style="color: rgb(255,244,172);" class="normal-str">@射撃訓練完了！</span>
                 </summary>
                 <div class="content">
-                    ゲーム開始前に Practice Gun の弾 1000 発を全て使用する<br>
+                    ゲーム開始前に Practice Gun の弾 1000 発を全て使う<br>
                 </div>
             </details>
             
@@ -927,15 +972,15 @@
                     <span style="color: rgb(201,205,251);" class="normal-str">@シークレットサービス</span>
                 </summary>
                 <div class="content">
-                    他の Player が <a href="#0score-win"> <span style="color: rgb(201,205,251);" class="normal-str">
+                    他のプレイヤーが <a href="#0score-win"> <span style="color: rgb(201,205,251);" class="normal-str">
                         @生類憐みの令
-                    </span> </a> を取得する<br>
+                    </span> </a> の条件を達成する<br>
                 </div>
             </details>
             
         </div>
         
-        <br><br>
+        <br>
         
         <div class="map">
             
@@ -946,11 +991,11 @@
                     <span style="color: rgb(27,115,163);" class="normal-str">@Zombies準上級者</span>
                 </summary>
                 <div class="content">
-                    いずれか達成：<br>                      
+                    以下のいずれかを達成する<br>                      
                     <ul style="padding: 0; padding-left: 23px; margin: 0px;">
-                        <li>Dead End Solo Normal Win</li>
+                        <li>Dead End Normal Solo で Win する</li>
                         <li>
-                            Alien Arcadium Quad で R57 までにダイヤフル装備獲得<br>
+                            Alien Arcadium Quad で Round 57 までにダイヤフル装備を獲得する<br>
                             自身以外は <a href="#senior"> <span style="color: rgb(180, 35, 35);" class="normal-str">
                                 @Zombies上級者
                             </span> </a> であること
@@ -964,11 +1009,11 @@
                     <span style="color: rgb(180, 35, 35);" class="normal-str">@Zombies上級者</span>
                 </summary>
                 <div class="content">
-                    いずれも達成：<br>
+                    以下のいずれも達成する<br>
                     <ul style="padding: 0; padding-left: 23px; margin: 0px;">
-                        <li>Dead End Solo Normal Win</li>
+                        <li>Dead End Normal Solo で Win する</li>
                         <li>
-                            Alien Arcadium Quad で R57 までにダイヤフル装備獲得<br>
+                            Alien Arcadium Quad で Round 57 までにダイヤフル装備を獲得する<br>
                             自身以外は <a href="#senior"> <span style="color: rgb(180, 35, 35);" class="normal-str">
                                 @Zombies上級者
                             </span> </a> であること
@@ -1040,7 +1085,9 @@
                     <span style="color: rgb(255,0,0);" class="normal-str">@日本代表</span>
                 </summary>
                 <div class="content">
-                    Alien Arcadium の Best Round を除く、いずれかのリーダボードにて Lifetime で 50 位以内に入る<br>
+                    Hypixe Zombies 内のいずれかのリーダボードにて Lifetime で 50 位以内に入る<br>
+                    ※ Alien Arcadium の Best Round は除く<br>
+                    ※ Zombot など外部のリーダーボードも除く<br>
                 </div>
             </details>
             
@@ -1049,7 +1096,7 @@
                     <span style="color: rgb(157,130,51);" class="normal-str">@一石二鳥</span>
                 </summary>
                 <div class="content">
-                    以下のうち、いずれか 2 つを同時に取得する<br>
+                    以下の実績条件の内、いずれか 2 つを同時に達成する<br>
                     <ul style="padding: 0; padding-left: 23px; margin: 0px;">
                         <li> <a href="#semi-senior"> <span style="color: rgb(27,115,163);" class="normal-str">
                             @Zombies準上級者
@@ -1097,6 +1144,8 @@
                             @兎の上り坂
                         </span> </a> </li>
                     </ul>
+                    ※ その実績を達成済みかどうかは関係ない<br>
+                    ※ 同一ゲーム内で達成する必要がある
                 </div>
             </details>
             
@@ -1136,7 +1185,7 @@
                     <span style="color: rgb(202,236,255);" class="normal-str">@最後の生存者</span>
                 </summary>
                 <div class="content">
-                    blocking deadで生き残る<br>
+                    Blocking Dead で生き残る<br>
                     生存者は自分だけ<br>
                 </div>
             </details>

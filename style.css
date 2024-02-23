@@ -1,0 +1,56 @@
+h1{
+    font-size: 26px;
+}
+h2{
+    font-size: 22px;
+}
+h3{
+    font-size: 18px;
+}
+h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: gray;
+    color: rgb(219,222,225);
+}
+.main-disp{
+    background-color: rgb(46, 48, 53);
+    width: 550px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.map{
+    width: 500px;
+    word-wrap: break-word;
+    background-color: rgb(30,31,34);
+    margin: 0 auto;
+    padding: 20px;
+}
+details{
+    font-size: 14px;
+}
+summary {
+    width: max-content;
+    margin: 2px;
+}
+.normal-str{
+    background-color: rgba(0,0,0,0.4);
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.dark-str{
+    background-color: rgba(255,255,255,0.25);
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.content {
+    margin-left: 20px;
+}
+a{
+    color: blueviolet;
+}
+a[href^="#"] {
+    text-decoration: none;
+}
